@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+            <script>
+                // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyBzUfR68uIbMh5eHNARq8fw5oSmBDYmHdo",
+                authDomain: "chat-ede3e.firebaseapp.com",
+                databaseURL: "https://chat-ede3e.firebaseio.com",
+                storageBucket: "chat-ede3e.appspot.com",
+                messagingSenderId: "404870529627"
+            };
+                firebase.initializeApp(config);
+        </script>   
+   
+        <title>Chat</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="chat.css">
+        <script src="chat.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body>
+    
+    
+    <header id="output">Welcome to your chat</header>
+<br> 
+
+<div id="inputloginout">
+<input id="username" type="text" placeholder="Username"><br>
+<input type ="submit" id="loginbtn" value="Log in">
+<button id="logoutbtn">Log out</button><br><br>
+    </div><br>
+    
+    <input id="write" type="text" placeholder="Write something...">
+<button id="submit">Submit</button>
+<button id="view">Update</button><br><br>
+   
+    
+<table id="msgbox">
+  <thead class="thead-default">
+    <tr>
+      <th>Username</th>
+      <th>Message</th>
+      <th>Time</th>
+      <th>ID</th>
+    </tr>
+  </thead>
+  <tbody id="table">
+    
+  </tbody>
+</table><br><br>
+    
+  
+    
+    
+<!--<footer>Chat Inc&copy</footer>-->
+
+</body>
+</html>

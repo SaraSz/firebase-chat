@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Chathura');
+
+body {
+    
+    font-family: "Chathura";   
+}
+
+
+header {
+    
+    background-image: url("205.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+#msgbox {
+    font-size: 35px;
+  
+}
+
+th {
+    background-color: #D3DCEC;   
+    height: 50px;
+}
+
+td {
+    vertical-align: left;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    display: inline-table;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+   
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+#textareandbutton {
+    margin-left: 30px;
+}
+
+
+button:hover {
+    background-color: #D3DCEC;
+}
+
+
+
+
